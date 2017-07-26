@@ -1,0 +1,113 @@
+
+
+
+
+@font-face {
+  font-family: 'KFWCentroSans';
+  src:  url('../../fonts/kfwcentrosans-regweb.woff');
+  src:  url('../../fonts/kfwcentrosans-regweb.woff') format('embedded-opentype'),
+    url('../../fonts/kfwcentrosans-regweb.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'VO' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+footer,header,section{
+	display:block;
+}
+
+html{
+	font-family:sans-serif;-ms-text-size-adjust:100%;
+	-webkit-text-size-adjust:100%;
+  font-size: 62.5%; /* Sets up the Base 10 stuff */
+}
+body{
+  font-family: $text-font;
+  font-size: 1.5rem;
+  line-height: 1.47;
+
+  @media #{$information-phone} {
+      width: 100%;
+    }
+}
+
+a{
+  text-decoration: none;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+
+.container{
+  max-width: 1080px;
+  margin: 0 auto;
+  margin-top: rem(62);
+  margin-bottom: 6rem;
+  
+    @media #{$information-phone} {
+      width: 100%;
+      margin-top: 0;
+      margin-bottom: 4rem;
+    }
+}
+
+.cta_left_button{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border: none;
+
+    @include text(2rem, 2rem, #fff);
+      padding: rem(10);
+      font-family: $button-font;
+      background-color: #196793;
+      border-radius: rem(5);
+      text-align: center;
+
+    @media #{$information-phone} {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 0;
+
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

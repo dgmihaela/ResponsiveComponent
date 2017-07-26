@@ -1,0 +1,273 @@
+
+.cta-teaser__headline{
+	box-sizing: border-box;
+	margin-left: 3rem;
+	margin-bottom: 3rem;	
+}
+
+.cta-teaser__info{
+	background-color: $cta_left_background;
+	box-sizing: border-box;
+	padding: 3rem;
+	width: 100%;
+
+	@media #{$information-phone} {
+  		width: 100%;
+  		margin-right: 0;
+	}
+
+	.hl-3{
+		margin-bottom: 2rem;
+
+			@media #{$information-phone} {
+      		font-size: 1.5rem;
+    	}
+	}
+	.list_5{
+		margin-top: 3rem;
+	}
+}
+
+.link_4{
+	display: inline-block;
+	color: #5A6166;
+	position: relative;
+
+	&:hover{
+		color: #60800f;
+	}
+}
+
+.tooltiptext {
+	position: absolute;
+	width:39rem;
+	background: #efebe6;
+	display: none;
+	border-radius: rem(6);
+	right: 50%;
+	left: -25.5%;
+	padding-left: 1rem;
+	padding-top: 2rem;
+	padding-right: 2rem;
+	top: 2.7rem;
+	z-index: 999;
+
+	@media #{$information-phone} {
+			width: 30rem;
+			display: fixed;
+			left: -100%;
+		}
+
+
+	&__title{
+		font-family: $text-font;
+		@include text(1.5rem, 1.5rem, #64686d);
+		font-weight: bold;
+	}
+	.icon-Close{
+		display: none;
+
+
+	@media #{$information-phone} {
+		display: inline-block;
+		float: right;
+		}
+	}
+	&__text{
+		font-family: $text-font;
+		@include text(1.5rem, 2rem, #64686d);
+		margin-bottom: 2rem;
+		margin-top: 2rem;
+	}
+	&__btn{
+		background-color: #546e60;
+		border-radius: rem(6);
+		@include text(1.5rem, 1.5rem, #fff);
+		margin-bottom: 2rem;
+		padding: 1rem;
+		border: none;
+	}
+
+	&:after {
+	  content: '';
+	  position: absolute;
+	  bottom: 100%;
+	  left: 50%;
+	  margin-left: -8px;
+	  width: 0; height: 0;
+	  border-bottom: 8px solid #efebe6;
+	  border-right: 8px solid transparent;
+	  border-left: 8px solid transparent;
+		
+	}
+}
+
+.cta-teaser__contact{
+
+	@media #{$information-phone} {
+  		width: 100%;
+  		padding-left: 3rem;
+  		box-sizing: border-box;
+  		margin-top: 4rem;
+		margin-left: 0;
+	}
+	
+	margin-top: 3rem;
+	margin-left: 3rem;
+
+	.hl-3{
+		margin-bottom: 2rem;
+
+		@media #{$information-phone} {
+      		margin-bottom: 3rem;
+		}
+
+	}
+	.cta_left_text{
+		margin-bottom: 2rem;
+		
+			@media #{$information-phone} {
+      			font-size: rem(12);
+			}
+	}
+	.link--big{
+		font-size: 2.8rem;
+		color: #60800F;
+		margin-bottom: 1rem;
+		font-family: $text-font;
+
+
+		@media #{$information-phone} {
+      		margin-bottom: 1rem;
+      		color: #1b618c;
+		}
+	}
+	.cs_number_addition{
+		font-size: 1.3rem;
+		font-family: $text-font;
+		margin-bottom: 3rem;
+		color: #5a6166;
+
+			@media #{$information-phone} {
+      			font-size: rem(12);
+			}	
+	}
+	.cs_link_list{
+		color: #1B618C;
+		font-size: 1.5rem;
+		font-family: $text-font;
+	}
+}
+
+.cross__box{
+
+	.SMK_2{
+		padding-left: 2rem;
+	}	
+	.box__kredit{
+		background-color: #60800f;
+		box-sizing: border-box;
+		padding: 2rem;
+		
+		// @media #{$information-phone} {
+		// padding: 2rem;
+		// }	
+	}
+
+	@media #{$information-phone} {
+		width: 100%;
+		margin-right: 0;
+		}	
+
+}
+
+.accordion{
+	margin-left: 3rem;
+
+	@media #{$information-phone} {
+		width: 100%;
+		padding-right: 4rem;
+		}	
+
+	&__button { 
+		font-family: $text-font;
+		cursor: pointer;
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+		color: #1b618c;
+		font-size: rem(16);
+ 	  	overflow: hidden;
+ 	  	margin-right: 2rem;
+
+		span{
+			float: left;
+			// width:50px;
+
+			&.icon-IcPlus{
+				display: block;
+			}
+			&.icon-IcMinus{
+				display: none;
+			}
+		}
+
+		p{
+			margin-left: rem(30);
+			text-align: left;
+			direction:ltr;
+
+		}
+	}
+
+	.accordion__content {
+		background-color: #fff;
+		display: none;
+		padding-left: rem(10);
+		padding-right: rem(10);
+		margin-left: rem(20);
+
+		&--button{
+			color: #60800f;
+			font-size: rem(16);
+			font-family: $text-font;
+			cursor: pointer;
+		}
+		p{
+			margin-top: 1rem;
+			margin-bottom: 2rem;
+			@include text(1.5rem, 1.47, #5A6166);
+		}
+	}
+
+	&.active{
+		.accordion__button{
+			color: #60800f;
+			.icon-IcPlus{
+				display: none;
+			}
+			.icon-IcMinus{
+				display: block;
+			}
+		}
+	}
+}
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

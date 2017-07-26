@@ -1,0 +1,6 @@
+$browser-context: 10; // Default
+
+@function rem($pixels, $context: $browser-context) {
+  @return #{$pixels/$context}rem;
+}
+

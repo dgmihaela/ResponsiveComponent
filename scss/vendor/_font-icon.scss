@@ -1,0 +1,99 @@
+@font-face {
+  font-family: 'VO';
+  src:  url('../fonts/VO.eot');
+  src:  url('../fonts/VO.eot') format('embedded-opentype'),
+    url('../fonts/VO.ttf') format('truetype'),
+    url('../fonts/VO.woff') format('woff'),
+    url('../fonts/VO.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'VO' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-IcLoupe:before {
+  content: "\e900";
+}
+.icon-uniE6042:before {
+  content: "\e901";
+}
+.icon-IcArrowRight:before {
+  content: "\e902";
+}
+.icon-IcArrowsRight:before {
+  content: "\e903";
+}
+.icon-IcPlus:before {
+  content: "\e904";
+}
+.icon-IcHome:before {
+  content: "\e905";
+}
+.icon-Close:before {
+  content: "\e906";
+}
+.icon-menu2:before {
+  content: "\e907";
+}
+.icon-IcArrowDown:before {
+  content: "\e908";
+}
+.icon-IcWarning:before {
+  content: "\e909";
+}
+.icon-IcChecked:before {
+  content: "\e90a";
+}
+.icon-IcReload:before {
+  content: "\e90b";
+}
+.icon-IcDownload:before {
+  content: "\e90c";
+}
+.icon-IcMinus:before {
+  content: "\e90d";
+}
+.icon-IcPrint:before {
+  content: "\e90e";
+}
+.icon-uniE6022:before {
+  content: "\e90f";
+}
+.icon-IconContactMail:before {
+  content: "\e910";
+}
+.icon-IconLock:before {
+  content: "\e911";
+}
+.icon-IconUnlock:before {
+  content: "\e912";
+}
+.icon-IconStop:before {
+  content: "\e913";
+}
+.icon-IconSettings:before {
+  content: "\e914";
+}
+.icon-IconTwitter:before {
+  content: "\e915";
+}
+.icon-IconVideo:before {
+  content: "\e916";
+}
+.icon-IconPlay:before {
+  content: "\e917";
+}
+
